@@ -1,4 +1,4 @@
-let store = {};
+let store = { drivers: [], passengers: [] };
 
 let driverId = 0;
 
