@@ -1,3 +1,3 @@
-class Driver (name) {
+class Driver {
   
 }
