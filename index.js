@@ -18,10 +18,10 @@ class Driver {
   }
   
   passengers() {
-    return store.trips.filter(
+    return this.trips().map(
       function(trip) {
-        return trip.driverId === this.id;
-      }.bind(this)
+        return trip.passenger();
+      }
     );
   }
 }
