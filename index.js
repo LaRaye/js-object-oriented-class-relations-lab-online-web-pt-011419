@@ -8,5 +8,5 @@ class Driver {
     this.name = name;
   }
   
-  store.push
+  store.drivers.push(this)
 }
