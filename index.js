@@ -8,6 +8,11 @@ class Driver {
     this.name = name;
     store.drivers.push(this);
   }
+  
+  trips() {
+    return store.drivers.filter
+  }
+  
 }
 
 let passengerId = 0;
